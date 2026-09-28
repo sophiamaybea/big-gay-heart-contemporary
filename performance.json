@@ -1,0 +1,57 @@
+{
+  "slug": "big-gay-heart-lemonheads-contemporary",
+  "song": {
+    "title": "Big Gay Heart",
+    "artist": "The Lemonheads",
+    "version": "Come On Feel The Lemonheads (1993) album cut",
+    "duration": "4:26",
+    "bpm": 116,
+    "meter": "4/4",
+    "eighths": "straight"
+  },
+  "identity": {
+    "subject": "Sophia",
+    "lock": "looks-like-me",
+    "year": 2026,
+    "source": "sophia-identity.json",
+    "height": "5'9\" / 175 cm",
+    "frame": "lean hourglass, long line, athletic",
+    "bust_waist_hips": "33-24-35 in",
+    "shoe": "UK 6",
+    "face": {
+      "skin": "fair warm, visible texture, dense individual freckles",
+      "eyes": "hazel green-gold inner, olive-brown outer, dark limbal ring",
+      "hair": "voluminous loose-to-medium curls, medium brown with caramel, shoulder length"
+    },
+    "negatives": [
+      "strawberry-blonde hair",
+      "blue eyes",
+      "poreless skin",
+      "erased freckles",
+      "sharp borrowed jaw",
+      "stock male SMPL unscaled"
+    ]
+  },
+  "voice": {
+    "role": "count-caller",
+    "identity": "Sophia",
+    "quality": "natural young-adult woman, unfiltered, studio-close",
+    "accent_default": "British-leaning unless she names another",
+    "script_source": "ROUTINE.md cue lines and count audit",
+    "engine_preference": ["chatterbox-turbo", "piper1-gpl"],
+    "not": "sung clone of the record, male coach, celebrity impersonation"
+  },
+  "skin": {
+    "identity": "Sophia 2026 lock",
+    "look_dev": "pore-scale, warm scatter, freckles survive",
+    "stills_desk": "looks-like-me"
+  },
+  "movement": {
+    "identity_frame": "5'9 lean hourglass, long line",
+    "source": "ROUTINE.md facings levels initiations",
+    "languages": ["contemporary primary", "pedestrian country-walk secondary"],
+    "motifs": ["Grey-Eyes", "Heart", "Look-After walk", "Dark spiral"],
+    "footwear": "barefoot or socks",
+    "interchange": "SMPL/BVH only if retargeted to this frame"
+  }
+}
